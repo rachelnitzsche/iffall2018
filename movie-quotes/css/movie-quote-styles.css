@@ -1,0 +1,35 @@
+div {
+	width: 1000px;
+	margin: auto;
+}
+
+p {
+	font-family: monospace;
+	font-size: 13pt;
+	line-height: 20pt;
+}
+
+h1 {
+	margin-top: 50pt;
+	color: #84D41D;
+	font-family: monospace;
+	font-size: 24pt;
+}
+
+h2 {
+	font-family: monospace;
+	font-style: italic;
+}
+
+body {
+	background-color: #464745;
+	color: white;
+}
+
+b {
+	color: #CAF495;
+}
+
+headline.action {
+	color:gray;
+}
