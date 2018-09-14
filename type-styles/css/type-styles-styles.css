@@ -1,0 +1,151 @@
+/* font-family: 'Raleway', sans-serif; */
+body {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-size: 15pt;
+	color: darkslategray;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: lighter;
+	background-color: floralwhite;
+}
+
+#history {
+	margin-left: 10px;
+	line-height: 19pt;
+	letter-spacing: .5pt;
+	font-size: 14pt;
+}
+
+.fontinfo {
+
+	font-size: 11pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: salmon;
+	line-height: 0pt;
+}
+
+#famsize {
+	margin-left: 10px;
+	font-size: 11pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: salmon;
+	line-height: 19pt;
+}
+
+#sidebar {
+	margin-left: 60px;
+	margin-top: 70px;
+	width: 500px;
+	height: 100%;
+	position:fixed;
+}
+
+#line {
+	height: 85%;
+	margin-top: 50px;
+	margin-left: 750px;
+	border-right: 6px solid salmon;
+	position: fixed;
+	z-index: 8;
+}
+
+#content {
+	margin-left: 800px;
+	margin-top: 60px;
+	width: 850px;
+	position: absolute;
+}
+
+#raleway {
+	font-family: 'Raleway', sans-serif;
+	font-size: 105pt;
+	line-height: 25px;
+	color: darkslategray;
+}
+
+.subheads {
+	font-size: 50pt;
+	color: rgba(47, 79, 79, .2);
+	text-transform: lowercase;
+
+}
+
+.examples {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25pt;
+	color: darkslategray;
+	line-height: 1px;
+}
+
+#abovebox {
+	background-color: floralwhite;
+	width: 100%;
+	height: 80px;
+	margin-top: 0px;
+	z-index: 10;
+	position:fixed;
+}
+
+#belowbox {
+	background-color: floralwhite;
+	width: 100%;
+	height: 80px;
+	bottom: 0;
+	z-index: 9;
+	position:fixed;
+
+}
+
+#wnormal {
+	font-weight: normal;
+}
+#wbold {
+	font-weight: bold;
+}
+#snormal {
+	font-style: normal;
+}
+#sitalic {
+	font-style: italic;
+}
+#lsnormal {
+	letter-spacing: normal;
+}
+#ls1 {
+	letter-spacing: .1em;
+}
+#ls06 {
+	letter-spacing: -.06em;
+}
+#ttnone {
+	text-transform: none;
+}
+#ttup {
+	text-transform: uppercase;
+}
+#ttlow {
+	text-transform: lowercase;
+}
+#ttcap {
+	text-transform: capitalize;
+}
+#tdnone {
+	text-decoration: none;
+}
+#tdunder {
+	text-decoration: underline;
+}
+#tdline {
+	text-decoration: line-through;
+}
+#tdover {
+	text-decoration: overline;
+
+}
+#tdunderwavy {
+	text-decoration: underline wavy;
+	
+}
