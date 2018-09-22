@@ -30,7 +30,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-image: url("/images/mistyforestdarker.jpg");
+	background-image: url("https://farm2.staticflickr.com/1885/44846167951_7ce01769fc_h.jpg");
 	z-index: -1;
 	opacity: .3
 }
