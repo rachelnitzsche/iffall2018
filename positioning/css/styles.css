@@ -1,0 +1,41 @@
+section:nth-of-type(1) aside {
+	float:right;
+}
+
+section:nth-of-type(2) {
+	position: relative;
+}
+
+section:nth-of-type(2) aside {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+section:nth-of-type(3) aside {
+	background-color: green;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+/*section:nth-of-type(4) {
+	position: relative;
+}*/
+
+section:nth-of-type(4) aside:nth-of-type(1) {
+	background-color: red;
+	z-index: 2;
+}
+
+section:nth-of-type(4) aside:nth-of-type(2) {
+	background-color: black;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+section:nth-of-type(4) aside {
+	transform: translateX(-50%);
+	position:absolute;
+	left:50%;
+}
