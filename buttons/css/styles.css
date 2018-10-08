@@ -1,0 +1,722 @@
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+#main_content {
+	margin: 40px;
+
+}
+
+h1 {
+font-size: 30px;
+margin-bottom: 40px;
+			}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+a#btn_coke {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 28px;
+	background-color: #D53736;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 35px;
+}
+
+a#btn_coke:hover {
+	color: #D53736;
+	background-color: #fff;
+	border: 2px solid #D53736;
+	padding-top: 26px;
+
+}
+
+
+a#btn_apple {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 13px;
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+a#btn_apple:hover {
+	background-color: black;
+	border: none;
+	color: #fff;
+	padding-top: 15px;
+}
+
+a#btn_ibm {
+	display: block;
+	width: 150px;
+	height: 50px;
+	margin: auto;
+	margin-top: 80px;
+	color: #2467F6;
+	text-align: center;
+	text-decoration: none;
+	font-size: 70px;
+	font-family: 'IBM plex sans', sans-serif;
+}
+
+a#btn_ibm:hover {
+	color: #fff;
+	-webkit-text-fill-color: white; 
+  	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #2467F6;
+}
+
+a#btn_nerf {
+	display: block;
+	width: 200px;
+	height: 70px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 90px;
+	background-color: #EF6E2D;
+	color: #F9D248;/*F9D248 2467F6*/
+	text-align: left;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Quantico', sans-serif;
+
+}
+
+a#btn_nerf:hover {
+	color: #fff; /*#DB3738*/
+}
+
+#arrowright {
+	font-size: 30px;
+	display: inline-block;
+	line-height: 72px;
+	padding-left: 25px;
+	position: absolute;
+}
+
+a#btn_harley {
+	display: block;
+	width: 140px;
+	height: 130px;
+	margin: auto;
+	margin-top: 55px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Teko', sans-serif;
+	line-height: 0px;
+	text-transform: uppercase;
+}
+
+#motorcycle {
+	font-size: 100px;
+	color: #EF6F2E;
+}
+
+a#btn_harley:hover {
+	color: #EF6F2E;
+}
+
+#motorcycle:hover {
+	color: black;
+}
+
+a#btn_kors {
+	display: block;
+	width: 200px;
+	height: 20px;
+	margin: auto;
+	margin-top: 120px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 23px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+a#btn_kors:hover {
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+
+a#btn_ideo {
+	display: block;
+	width: 160px;
+	height: 40px;
+	margin: auto;
+	margin-top: 100px;
+	border: 3px solid #75B5B4;
+	color: #75B5B4;
+	text-align: center;
+	text-decoration: none;
+	font-size: 23px;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-top: 15px;
+}
+
+a#btn_ideo:hover {
+	color: #D26236;
+	border: 3px solid #D26236;
+}
+
+span#dot {
+	font-size: 10px;
+	display: inline-block;
+	position: absolute;
+	line-height: 25px;
+}
+
+a#btn_sardella {
+	display: block;
+	width: 200px;
+	height: 100px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 80px;
+	background-color: #71FBD1;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 80px;
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: 5px;
+	line-height: 100px;
+	transition-duration: .5s;
+}
+
+a#btn_sardella:hover {
+	background-color: #0019BC;
+}
+
+a#btn_craig {
+	display: block;
+	width: 230px;
+	height: 60px;
+	margin: auto;
+	margin-top: 100px;
+	color: blue;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	font-family: "Times New Roman", serif;
+	line-height: 50px;
+}
+
+a#btn_craig:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+a#btn_lyft {
+	display: block;
+	width: 100px;
+	height: 70px;
+	margin: auto;
+	margin-top: 75px;
+	border-radius: 25px;
+	text-decoration: none;
+	background-image: url("http://ama2018.com/wp-content/uploads/2018/02/lyft-logo-white.png");
+	background-size: 100px;
+	background-position: center;
+	background-color: #EA1A87;
+	border: 5px solid #EA1A87;
+	padding: 15px;
+	background-repeat: no-repeat;
+}
+
+a#btn_lyft:hover {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/1200px-Lyft_logo.svg.png");
+	background-size: 100px;
+	background-position: center;
+	background-color: white;
+	border: 5px solid #EA1A87;
+}
+
+a#btn_sam {
+	display: block;
+	width: 150px;
+	height: 25px;
+	margin: auto;
+	margin-top: 115px;
+	text-decoration: none;
+	background-image: url("http://pngimg.com/uploads/samsung_logo/samsung_logo_PNG9.png");
+	background-size: 150px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: .5s;
+}
+
+a#btn_sam:hover {
+	background-image: url("http://pngimg.com/uploads/samsung_logo/samsung_logo_PNG9.png");
+	background-size: 170px;
+	background-position: center;
+}
+
+a#btn_cn {
+	display: block;
+	width: 220px;
+	height: 40px;
+	margin: auto;
+	margin-top: 115px;
+	border-radius: 25px;
+	text-decoration: none;
+	background-image: url("https://fontmeme.com/permalink/181007/2930b0175ad91168637a64c56e690d5d.png");
+	background-size: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_cn:hover {
+	background-color: #EA1A87;
+	background-image: url("https://fontmeme.com/permalink/181007/ed0b38e2e8d172378bcb3d787c35672a.png");
+	background-size: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+a#btn_ofa {
+	display: block;
+	width: 150px;
+	height: 70px;
+	margin: auto;
+	margin-top: 95px;
+	text-decoration: none;
+	background-color: #53BCD6;
+	color: white;
+	transition-duration: .3s;
+	font-family: 'Open sans', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 70px;
+}
+
+a#btn_ofa:hover {
+	background-color: #28768A;
+	color: white;
+}
+
+
+a#btn_nike {
+	display: block;
+	width: 150px;
+	height: 55px;
+	margin: auto;
+	margin-top: 95px;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	padding-top: 16px;
+	transition-duration: .3s;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png");
+	background-size: 150px;
+	background-repeat: no-repeat;
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+
+}
+
+a#btn_nike:hover {
+	color: black;
+}
+
+a#btn_mbg {
+	display: block;
+	width: 230px;
+	height: 80px;
+	margin: auto;
+	margin-top: 95px;
+	text-decoration: none;
+	color: #4A6722;
+	transition-duration: .3s;
+	font-family: 'Marcellus SC', serif;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 80px;
+}
+
+a#btn_mbg:hover {
+	color: #D3E8B6;
+}
+#leaf {
+	font-size: 55px;
+}
+
+a#btn_tesla {
+	display: block;
+	width: 100px;
+	height: 70px;
+	margin: auto;
+	margin-top: 90px;
+	border-radius: 25px;
+	text-decoration: none;
+	background-image: url("http://www.stickpng.com/assets/images/580b585b2edbce24c47b2cc9.png");
+	background-size: 100px;
+	background-position: top;
+	background-repeat: no-repeat;
+	transition-duration: .5s;
+}
+
+a#btn_tesla:hover {
+	background-image: url("http://www.stickpng.com/assets/images/580b585b2edbce24c47b2cc9.png");
+	background-size: 100px;
+	background-position: center;
+	height: 88px;
+}
+
+a#btn_moo {
+	display: block;
+	width: 170px;
+	height: 80px;
+	margin: auto;
+	margin-top: 90px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition-duration: .3s;
+	color: #128A67;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 50px;
+	line-height: 85px;
+	border: 3px #128A67 solid;
+
+}
+
+a#btn_moo:hover {
+	color: white;
+	background-color: #128A67;
+}
+
+
+a#btn_potter {
+	display: block;
+	width: 4px;
+	height: 80px;
+	margin: auto;
+	margin-top: 90px;
+	text-decoration: none;
+	transition-duration: .3s;
+	border-left: 5px #153D4F solid;
+	background-image: url('https://vignette.wikia.nocookie.net/es.harrypotter/images/8/84/Nuevo_logo_Pottermore_2.png/revision/latest?cb=20151213155429&format=original');
+	background-size: 170px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: -200px;
+}
+
+a#btn_potter:hover {
+	background-position: center;
+	width: 190px;
+	border-left: 5px #153D4F solid;
+}
+
+a#btn_exploding {
+	display: block;
+	width: 180px;
+	height: 75px;
+	margin: auto;
+	margin-top: 100px;
+	text-decoration: none;
+	transition-duration: .3s;
+	color: black;
+	font-family: 'Teko', sans-serif;
+	font-size: 50px;
+	line-height: 40px;
+}
+
+a#btn_exploding:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd905+0,ff9b05+37,ff3232+100 */
+background: #ffd905; /* Old browsers */
+background: -moz-linear-gradient(top, #ffd905 0%, #ff9b05 37%, #ff3232 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffd905 0%,#ff9b05 37%,#ff3232 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffd905 0%,#ff9b05 37%,#ff3232 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd905', endColorstr='#ff3232',GradientType=0 ); /* IE6-9 */
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+a#btn_yorker {
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	margin-top: 90px;
+	text-decoration: none;
+	text-align: center;
+	transition-duration: .3s;
+	background-image: url('https://logos-download.com/wp-content/uploads/2016/11/The_New_Yorker_logo.png');
+	background-size: 170px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	font-size: 50px;
+	background-position: center 70px;
+	color: black;
+}
+
+a#btn_yorker:hover {
+	background-position: bottom;
+	width: 190px;
+	height: 110px;
+	color: white;
+	margin-top: 40px;
+}
+
+a#btn_flight {
+	display: block;
+	width: 43px;
+	height: 50px;
+	margin: auto;
+	margin-top: 100px;
+	text-decoration: none;
+	text-align: right;
+	transition-duration: .3s;
+	background-image: url('http://twinandturbine.com/wp-content/uploads/2016/12/ForeFlight-horizontal-logo-black-copy-copy.jpg');
+	background-size: 230px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	font-size: 50px;
+	line-height: 50px;
+	background-position: -250px center;
+	color: black;
+}
+
+a#btn_flight:hover {
+	background-position: -80px center;
+	width: 190px;
+	color: black;
+	text-align: right;
+}
+
+a#btn_npr {
+	display: block;
+	width: 170px;
+	height: 56px;
+	margin: auto;
+	margin-top: 100px;
+	text-decoration: none;
+	transition-duration: .3s;
+	background-image: url('https://media.npr.org/chrome_svg/npr-logo.svg');
+	background-position: center;
+	background-size: 170px;
+	background-repeat: no-repeat;
+	-webkit-filter: grayscale(100%);
+}
+
+a#btn_npr:hover {
+	-webkit-filter: grayscale(0%);
+}
+
+a#btn_hsn {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #2F77C2;
+	color: #fff;
+	text-align: center;
+	font-size: 33px;
+	text-decoration: none;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: 700;
+	line-height: 88px;
+}
+
+a#btn_hsn:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f77c2+1,35a8d6+63,00d5f2+99 */
+	background: #2f77c2; /* Old browsers */
+	background: -moz-linear-gradient(top, #2f77c2 1%, #35a8d6 63%, #00d5f2 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2f77c2 1%,#35a8d6 63%,#00d5f2 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2f77c2 1%,#35a8d6 63%,#00d5f2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f77c2', endColorstr='#00d5f2',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_insta {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 18px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 100px;
+	color: black;
+	background-color: white;
+	background-size: 130px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	line-height: 90px;
+ 	
+}
+
+a#btn_insta:hover {
+	background-image: url('https://image.shutterstock.com/image-vector/gradient-stock-vector-illustration-colorful-260nw-475787737.jpg');
+ 	background-size: 130px;
+ 	background-repeat: no-repeat;
+ 	color: white;
+ 	overflow: hidden;
+}
+
+a#btn_facebook {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 80px;
+	border-radius: 18px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 100px;
+	color: black;
+	background-color: white;
+	background-size: 130px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	line-height: 90px;
+}
+
+a#btn_facebook:hover {
+ 	color: #4968AD;
+}
