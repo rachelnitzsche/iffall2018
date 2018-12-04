@@ -1,0 +1,851 @@
+body {
+	margin: 0;
+}
+
+.link {
+	color: white;
+	border-bottom: 1px white solid;
+	text-decoration: none;
+	line-height: 0px;
+}
+
+.link:hover {
+	color: salmon;
+	border-bottom: 1px salmon solid;
+}
+
+@media (min-width: 1450px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 100%;
+		background-position: 0px 200px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 70px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 130px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 45px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -20px;
+		text-indent: 50px;
+		color: #707070;
+	}
+
+	#arrow {
+		text-align: center;
+		font-size: 65px;
+		color: #333333;
+	}
+
+	#body {
+		width: 63%;
+		margin: auto;
+	}
+
+	#ggimage {
+		padding-top: 70px;
+	}
+
+	#conflict {
+		padding-top: 70px;
+	}
+
+
+	#body div {
+		width: 90%;
+		margin: auto;
+	}
+
+	#overview {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+
+
+	.half {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 60%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	.whole {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 100%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	#body p {
+		font-family: lora, serif;
+		width: 60%;
+		display: inline-block;
+		line-height: 35px;
+		letter-spacing: .1px;
+		font-size: 18px;
+		margin: 0;
+		padding-bottom: 100px;
+	}
+
+	#body img {
+		width: 35%;
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#overview img {
+		padding-top: 0px;
+	}
+	
+	#ggimage img {
+		padding-top: 80px;
+		width: 38%;
+	}
+
+	#conflict img {
+		width: 39%;
+	}
+
+	#gallery {
+		width: 63%;
+		height: 160px;
+		margin: auto;
+	}
+
+	#button {
+		border: 2px #333333 solid;
+		height: 70px;
+		width: 250px;
+		background-color: white;
+		margin: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		text-align: center;
+		font-family: cormorant garamond, serif;
+		font-size: 30px;
+		font-style: italic;
+		color: #333333;
+		line-height: 70px;
+		display: block;
+		text-decoration: none;
+	}
+
+	#button:hover {
+		border: 2px #333333 solid;
+		background-color: #333333;
+		color: white;
+	}
+
+
+	footer {
+		background-color: #333333;
+		height: 190px;
+		width: 100%;
+	}
+
+	footer p {
+		width: 63%;
+		margin: auto;
+		padding-top: 75px;
+		font-family: cormorant garamond, serif;
+		font-weight: 500;
+		font-style: italic;
+		color: white;
+		text-align: center;
+		font-size: 25px;
+	}
+
+}
+
+/*-----------------------------------*/
+
+@media (max-width: 1449px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 100%;
+		background-position: 0px 200px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 70px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 100px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 35px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -15px;
+		text-indent: 50px;
+		color: #707070;
+	}
+
+	#arrow {
+		text-align: center;
+		font-size: 65px;
+		color: #333333;
+	}
+
+	#body {
+		width: 63%;
+		margin: auto;
+	}
+
+	#ggimage {
+		padding-top: 70px;
+	}
+
+	#conflict {
+		padding-top: 70px;
+	}
+
+
+	#body div {
+		width: 86%;
+		margin: auto;
+	}
+
+	#overview {
+		padding-top: 70px;
+	}
+
+	.half {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 60%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	.whole {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 100%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	#body p {
+		font-family: lora, serif;
+		width: 60%;
+		display: inline-block;
+		line-height: 35px;
+		letter-spacing: .1px;
+		font-size: 18px;
+		margin: 0;
+		padding-bottom: 100px;
+	}
+
+	#body img {
+		width: 35%;
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#overview img {
+		padding-top: 50px;
+	}
+	
+	#ggimage img {
+		padding-top: 180px;
+		width: 38%;
+	}
+
+	#conflict img {
+		width: 39%;
+	}
+
+	#gallery {
+		width: 63%;
+		height: 160px;
+		margin: auto;
+	}
+
+	#button {
+		border: 2px #333333 solid;
+		height: 70px;
+		width: 250px;
+		background-color: white;
+		margin: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		text-align: center;
+		font-family: cormorant garamond, serif;
+		font-size: 30px;
+		font-style: italic;
+		color: #333333;
+		line-height: 70px;
+		display: block;
+		text-decoration: none;
+	}
+
+	#button:hover {
+		border: 2px #333333 solid;
+		background-color: #333333;
+		color: white;
+	}
+
+
+	footer {
+		background-color: #333333;
+		height: 300px;
+		width: 100%;
+	}
+
+	footer p {
+		width: 63%;
+		margin: auto;
+		padding-top: 135px;
+		font-family: cormorant garamond, serif;
+		font-weight: 500;
+		font-style: italic;
+		color: white;
+		text-align: center;
+		font-size: 23px;
+	}
+
+}
+
+/*-----------------------------------*/
+
+@media (max-width: 1350px) {
+
+	#body {
+		width: 75%;
+		margin: auto;
+	}
+
+}
+
+/*-----------------------------------*/
+
+@media (max-width: 1200px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 150%;
+		background-position: -30px 200px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 70px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 100px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 35px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -15px;
+		text-indent: 50px;
+		color: #707070;
+	}
+
+	#arrow {
+		text-align: center;
+		font-size: 65px;
+		color: #333333;
+	}
+
+	#body {
+		width: 80%;
+		margin: auto;
+	}
+
+	#ggimage {
+		padding-top: 70px;
+	}
+
+	#conflict {
+		padding-top: 70px;
+	}
+
+
+	#body div {
+		width: 86%;
+		margin: auto;
+	}
+
+	#overview {
+		padding-top: 70px;
+	}
+
+	.half {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 60%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	.whole {
+		font-family: cormorant garamond, serif;
+		font-weight: 400;
+		font-size: 50px;
+		width: 100%;
+		margin-right: 0;
+		display: inline-block;
+	}
+
+	#body p {
+		font-family: lora, serif;
+		width: 60%;
+		display: inline-block;
+		line-height: 35px;
+		letter-spacing: .1px;
+		font-size: 18px;
+		margin: 0;
+		padding-bottom: 100px;
+	}
+
+	#body img {
+		width: 35%;
+		display: inline-block;
+		margin: 0;
+		float: right;
+		margin-top: 30px;
+	}
+
+	#overview img {
+		padding-top: 50px;
+	}
+	
+	#ggimage img {
+		padding-top: 180px;
+		width: 38%;
+	}
+
+	#conflict img {
+		width: 39%;
+	}
+
+	#gallery {
+		width: 63%;
+		height: 160px;
+		margin: auto;
+	}
+
+	#button {
+		border: 2px #333333 solid;
+		height: 70px;
+		width: 250px;
+		background-color: white;
+		margin: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		text-align: center;
+		font-family: cormorant garamond, serif;
+		font-size: 30px;
+		font-style: italic;
+		color: #333333;
+		line-height: 70px;
+		display: block;
+		text-decoration: none;
+	}
+
+	#button:hover {
+		border: 2px #333333 solid;
+		background-color: #333333;
+		color: white;
+	}
+
+
+		footer {
+		background-color: #333333;
+		height: 190px;
+		width: 100%;
+	}
+
+	footer p {
+		width: 63%;
+		margin: auto;
+		padding-top: 75px;
+		font-family: cormorant garamond, serif;
+		font-weight: 500;
+		font-style: italic;
+		color: white;
+		text-align: center;
+		font-size: 25px;
+	}
+
+/*-----------------------------------*/
+
+
+@media (max-width: 1050px) {
+
+#body {
+		width: 95%;
+		margin: auto;
+	}
+
+}
+
+/*-----------------------------------*/
+
+
+@media (max-width: 800px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 200%;
+		background-position: 0px 200px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#body {
+		width: 85%;
+		margin: auto;
+	}
+
+	#body div {
+		width: 95%;
+		margin: auto;
+	}
+
+	#body p {
+		font-family: lora, serif;
+		width: 100%;
+		display: block;
+		line-height: 35px;
+		letter-spacing: .1px;
+		font-size: 18px;
+		margin: 0;
+		padding-bottom: 100px;
+	}
+
+	#overview {
+		padding-top: 0;
+	}
+
+
+
+	#body img {
+		width: 60%;
+		display: block;
+		margin: auto;
+		float:none;
+		margin-top: 0;
+		margin-bottom: 20px;
+		padding-top: 0;
+	}
+
+
+
+	footer p {
+		width: 80%;
+	}
+
+}
+
+
+/*-----------------------------------*/
+
+
+@media (max-width: 700px) {
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 60px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 90px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 30px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -15px;
+		text-indent: 20px;
+		color: #707070;
+	}
+
+	.whole {
+		font-size: 50px;
+	}
+
+	.half {
+		font-size: 50px;
+	}
+
+}
+
+/*-----------------------------------*/
+
+
+@media (max-width: 540px) {
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 50px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 80px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 28px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -15px;
+		text-indent: 20px;
+		color: #707070;
+	}
+
+	#body p {
+		font-size: 16px;
+	}
+
+	.whole {
+		font-size: 40px;
+	}
+
+	.half {
+		font-size: 40px;
+	}
+
+	
+
+	#body div {
+		padding-top: 30px;
+	}
+
+	div#gallery {
+		padding-top: 0px;
+	}
+
+	div#arrow {
+		padding-top: 0px;
+	}
+
+	footer p {
+		font-size: 20px;
+	}
+
+}
+
+/*-----------------------------------*/
+
+
+@media (max-width: 540px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 250%;
+		background-position: -500px 200px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 40px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 75px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 25px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -15px;
+		text-indent: 20px;
+		color: #707070;
+	}
+
+}
+
+/*-----------------------------------*/
+
+@media (max-width: 440px) {
+
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 20px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-weight: 400;
+		font-size: 70px;
+		margin: 0;
+		color: #272727;
+	}
+
+	#subtitle {
+		font-weight: 600;
+		font-size: 23px;
+		font-style: italic;
+		margin: 0;
+		margin-top: -10px;
+		text-indent: 10px;
+		color: #707070;
+	}
+
+	#body p {
+		font-size: 15px;
+		line-height: 30px;
+		padding-bottom: 50px;
+	}
+
+	footer p {
+		font-size: 18px;
+	}
+
+}
+
+/*-----------------------------------*/
+
+@media (max-width: 400px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 300%;
+		background-position: 0px 100px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 25px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-size: 60px;
+	}
+
+	#subtitle {
+		font-size: 20px;
+		margin-top: -10px;
+	}
+
+	#body img {
+		width: 80%;
+	}
+
+
+}
+
+@media (max-width: 330px) {
+
+	#headimage {
+		height: 92vh;
+		width: 100%;
+		background-image: url(../images/gg2-boring2.jpg);
+		background-size: 350%;
+		background-position: 0px 100px;
+		background-color: white;
+		background-repeat: no-repeat;
+	}
+
+	#headtext {
+		font-family: cormorant garamond, serif;
+		padding-left: 15px;
+		padding-top: 50px;
+
+	}
+
+	#title {
+		font-size: 50px;
+	}
+
+	#subtitle {
+		font-size: 18px;
+		margin-top: -10px;
+	}
+}
+
+
